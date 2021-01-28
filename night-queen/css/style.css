@@ -1,0 +1,801 @@
+
+/*
+  Theme Name: Night Queen
+  Author: golzarahamedshohel
+  Support: golzarahamedshohel@gmail.com
+  Description: Night queen is a bootstrap responsive html template for night club and bar
+  Version: 1.0
+*/
+
+/* CSS Index
+-----------------------------------
+1. Theme default css
+2. Header section Css
+3. Slider section css
+4. About us section css
+5. Gallery Section Css
+6. Service section css
+7. News & Events section css
+8. Reservation section css
+9. Footer section css 
+10. Page breadcumb section css
+11. Single Event page css 
+*/
+
+/* 1. Theme default css */
+
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Libre+Baskerville:wght@400;700&family=Pirata+One&display=swap");
+
+body {
+    font-family: "Libre Baskerville", serif;
+    font-weight: normal;
+    font-style: normal;
+	background:#000000;
+}
+
+.img {
+    max-width: 100%;
+    transition: all 0.3s ease-out 0s;
+}
+.f-left {
+    float: left;
+}
+.f-right {
+    float: right;
+}
+.fix {
+    overflow: hidden;
+}
+a,
+.button {
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -ms-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+}
+a:focus,
+.button:focus {
+    text-decoration: none;
+    outline: none;
+}
+a:focus,
+a:hover,
+.portfolio-cat a:hover,
+.footer -menu li a:hover {
+    color: #2b96cc;
+    text-decoration: none;
+}
+a,
+button {
+    color: #1696e7;
+    outline: medium none;
+}
+button:focus,
+input:focus,
+input:focus,
+textarea,
+textarea:focus {
+    outline: 0;
+    background: #000;
+}
+.form-control:focus {
+    background: #000;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+.capitalize {
+    text-transform: capitalize;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal;
+    color: #c5a059;
+    margin-top: 0px;
+    font-style: normal;
+    font-weight: 400;
+    font-family: "Dancing Script", cursive;
+}
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+    color: inherit;
+}
+h1 {
+    font-size: 40px;
+    font-weight: 500;
+}
+h2 {
+    font-size: 35px;
+}
+h3 {
+    font-size: 28px;
+}
+h4 {
+    font-size: 22px;
+}
+h5 {
+    font-size: 18px;
+}
+h6 {
+    font-size: 16px;
+}
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+li {
+    list-style: none;
+}
+p {
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 24px;
+    color: #7e7e7e;
+    margin-bottom: 15px;
+    font-family: "Libre Baskerville", serif;
+}
+hr {
+    border-bottom: 1px solid #eceff8;
+    border-top: 0 none;
+    margin: 30px 0;
+    padding: 0;
+}
+label {
+    color: #7e7e7e;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 400;
+}
+*::-moz-selection {
+    background: #d6b161;
+    color: #fff;
+    text-shadow: none;
+}
+::-moz-selection {
+    background: #444;
+    color: #fff;
+    text-shadow: none;
+}
+::selection {
+    background: #444;
+    color: #fff;
+    text-shadow: none;
+}
+*::-moz-placeholder {
+    color: #ccc;
+    font-size: 14px;
+    opacity: 1;
+}
+*::placeholder {
+    color: #ccc;
+    font-size: 14px;
+    opacity: 1;
+}
+
+/* button style */
+
+.btn {
+    -moz-user-select: none;
+    background: #c5a059 none repeat scroll 0 0;
+    font-family: "Dancing Script", cursive;
+    border: medium none;
+    border-radius: 2px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 1;
+    margin-bottom: 0;
+    padding: 13px 25px;
+    text-align: center;
+    text-transform: uppercase;
+    touch-action: manipulation;
+    transition: all 0.3s ease 0s;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+/*2. Header section Css*/
+.transparent-header {
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    background: #000;
+    opacity: 1;
+    transition: 0.5s;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: 0.5s;
+    opacity: 1;
+}
+
+.logo {
+    padding-top: 15px;
+}
+.text-logo {
+    padding-top: 15px;
+}
+
+.text-logo a {
+    color: #ccc;
+    font-size: 24px;
+    margin: auto;
+   
+}
+.mobile-logo a {
+    font-weight: 700;
+    color: #ccc;
+}
+.mobile-logo {
+    padding: 0px 25px;
+    margin: auto;
+}
+.mobile-menu-area {
+    position: absolute;
+    top: 40px;
+    right: 0;
+    width: 100%;
+}
+.main-menu ul li {
+    display: inline-block;
+    position: relative;
+}
+.main-menu ul li a {
+    font-size: 26px;
+    font-family: "Dancing Script", cursive;
+    color: #c5a059;
+    font-weight: 700;
+    padding: 20px 14px;
+    display: list-item;
+    line-height: 1;
+}
+.main-menu ul li.active a {
+    border-bottom: 3px solid #c5a059;
+}
+.main-menu ul li ul.submenu {
+    position: absolute;
+    width: 200px;
+    top: 100%;
+    background: #fff;
+    transition: 0.3s;
+    opacity: 0;
+    visibility: hidden;
+    box-shadow: 0 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+.main-menu ul li:hover > ul.submenu {
+    opacity: 1;
+    visibility: visible;
+}
+.main-menu ul li ul.submenu li {
+    display: block;
+}
+.main-menu ul li ul.submenu li a {
+    color: rgb(58, 58, 58);
+    padding: 15px 30px;
+}
+.main-menu ul li ul.submenu li:hover > a {
+    background: #523fdb;
+    color: #d4cfcf;
+}
+.main-menu ul li:hover ul.submenu li ul.submenu {
+    left: 100%;
+    top: 0;
+}
+/* 3. Slider section css*/
+.slider-area {
+    position: relative;
+}
+.video-slider-area {
+    height: 800px;
+}
+.slider-text {
+    padding-top: 250px;
+    padding-right: 30px;
+}
+.slider-text h5 {
+    color: #c5a059;
+    font-size: 38px;
+    font-family: "Dancing Script", cursive;
+    line-height: 1;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+.parallax-window {
+    min-height: 700px;
+    background: transparent;
+}
+.slider-text h1 {
+    color: #ccc;
+    font-family: "Libre Baskerville";
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 1.3;
+}
+.pogo-slider-home {
+    color: #ccc;
+    font-family: "Libre Baskerville";
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 1.3;
+}
+.pogoSlider-slide-element {
+    padding-left: 60px;
+}
+.pogo-slider-text h1 {
+    padding-top: 225px;
+    padding-bottom: 20px;
+    font-size: 50px;
+}
+.pogo-slider-text .btn {
+    font-size: 13px;
+    border-radius: 30px;
+    background: none;
+    border: 2px solid #ccc;
+    margin-left: 62px;
+    padding: 18px 30px;
+    margin-bottom: 20px;
+}
+
+.pogo-slider-text p {
+    font-size: 20px;
+    line-height: 2;
+    font-weight: normal;
+    color: #ccc;
+    font-family: "Libre Baskerville";
+    margin-bottom: 30px;
+}
+video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+
+    background-size: cover;
+    transition: 1s opacity;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+/* 4. About us section css*/
+
+.about-us-text {
+    border: 15px solid #c5a059;
+    padding: 35px;
+}
+.about-us-text h1 {
+    font-size: 120px;
+    line-height: 1;
+}
+.about-us-text-normal p {
+    font-size: 16px;
+    color: #ccc;
+}
+
+/* 5. Gallery Section Css*/
+
+.gallery-area-header h1 {
+    font-size: 75px;
+    font-weight: 700;
+    line-height: 1;
+    padding-bottom: 25px;
+}
+.gallery-area-header p {
+    color: #d4cfcf;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.gallery-nav {
+    display: inline-block;
+    margin-bottom: 35px;
+}
+.gallery-nav li {
+    display: inline-block;
+}
+.gallery-nav li a {
+    border: 2px solid #c5a059;
+    font-size: 25px;
+    color: #c5a059;
+    font-family: "Dancing Script";
+    line-height: 1.2;
+}
+.image-item {
+    margin-bottom: 30px;
+    position: relative;
+}
+a.video-button.btn {
+    padding: 20px 25px;
+    position: absolute;
+    top: 34%;
+    left: 38%;
+    background: none;
+    border-radius: 50%;
+    display: block;
+    font-size: 30px;
+    transition: 0.3s;
+    border: 5px solid #ccc;
+    color: #ccc;
+    font-size: 35px;
+}
+a.video-button.btn:hover {
+    background-color: transparent;
+    color: #c5a059;
+}
+
+/* 6. Service section css*/
+
+.service-area-header h1 {
+    font-size: 75px;
+    font-weight: 700;
+    line-height: 1;
+    padding-bottom: 25px;
+}
+.service-area-header p {
+    color: #ccc;
+    font-size: 16px;
+    line-height: 1.5;
+    padding-bottom: 30px;
+}
+.service-nav {
+    display: inline-block;
+    margin-bottom: 35px;
+}
+.service-nav li {
+    display: inline-block;
+}
+.service-nav li a {
+    border: 2px solid #c5a059;
+    font-size: 25px;
+    color: #c5a059;
+    font-family: "Dancing Script";
+    line-height: 1.2;
+}
+.package-offer {
+    background: #000;
+    padding: 37px 15px;
+    margin-bottom: 25px;
+    min-height: 450px;
+    line-height: 1;
+    box-shadow: 0 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+.package-offer li {
+    color: #ccc;
+    padding-bottom: 25px;
+    line-height: 1;
+    font-size: 16px;
+}
+.package-offer h5 {
+    font-size: 20px;
+    line-height: 1.2;
+}
+.package-offer h3 {
+    padding-bottom: 25px;
+    line-height: 1.2;
+}
+/* 7. News & Events section css*/
+
+
+.event-area-header h1 {
+    font-size: 75px;
+    font-weight: 700;
+    line-height: 1;
+    padding-bottom: 25px;
+}
+.event-area-header p {
+    color: #ccc;
+    font-size: 16px;
+    line-height: 1.5;
+    padding-bottom: 60px;
+}
+.event-single {
+    background: #0a0a0a;
+    padding: 25px;
+    margin-bottom: 30px;
+}
+.event-single-border {
+    border: 1px dashed #c5a059;
+    padding: 25px;
+}
+.event-post-text {
+    background: #0a0a0a;
+}
+.event-meta li {
+    display: inline-block;
+    padding: 25px 0;
+    color: #ccc;
+    line-height: 1.5;
+}
+.event-meta li a {
+    padding: 25px 0;
+    color: #ccc;
+    line-height: 1.5;
+}
+.event-text p {
+    color: #ccc;
+    line-height: 1.5;
+}
+.event-heading h1 {
+    line-height: 1.1;
+    font-size: 40px;
+    font-weight: 600;
+    padding-bottom: 25px;
+}
+
+.img-hover-zoom--slowmo img {
+    transform-origin: 50% 65%;
+    transition: transform 5s, filter 3s ease-in-out;
+    filter: brightness(100%);
+}
+
+.img-hover-zoom--slowmo:hover img {
+    filter: brightness(100%);
+    transform: scale(3);
+}
+.img-hover-zoom {
+    height: auto;
+    overflow: hidden;
+}
+/* 8. Reservation section css*/
+.reservation-area {
+    background: #000;
+}
+.form-control {
+    padding: 15px 10px;
+    border: 1px solid #4f6a86;
+    color: #ccc;
+    background-color: #000;
+    margin: 7px 0px;
+}
+.reservation-form .btn {
+    padding: 25px 58px;
+    font-size: 24px;
+    border-radius: 37px;
+    border: 2px solid #c5a059;
+    background: none;
+    margin-top: 35px;
+}
+.reservation-form .btn:hover {
+    border: 2px solid #c5a059;
+    color: #c5a059;
+    background: none;
+}
+.reservation-form .btn:focus {
+    border: 2px solid #c5a059;
+    color: #c5a059;
+    background: none;
+}
+.reservation-form .btn:active {
+    border: 2px solid #c5a059;
+    color: #c5a059;
+    background: none;
+}
+.reservation-area-header h1 {
+    font-size: 75px;
+    font-weight: 700;
+    line-height: 1;
+    padding-bottom: 25px;
+}
+.form-row > .col,
+.form-row > [class*="col-"] {
+    padding-right: 13px;
+    padding-left: 13px;
+}
+.reservation-area-header p {
+    color: #ccc;
+    font-size: 16px;
+    line-height: 1.5;
+    padding-bottom: 60px;
+}
+/* 9. Footer section css */
+.footer-area {
+    background: #000;
+}
+.copyright-area {
+    background: #000;
+    border-top: 1px solid #ccc;
+    padding-top: 25px;
+}
+
+.footer-end span {
+    font-size: 20px;
+    color: #ccc;
+    line-height: 1.2;
+}
+.footer-end li {
+    display: inline-block;
+    padding: 10px;
+}
+.footer-end li a {
+    color: #fff;
+    font-size: 46px;
+}
+.footer-area {
+    background: #000;
+    background-size: cover;
+}
+.footer-logo {
+    padding-bottom: 60px;
+}
+.footer-text h1 {
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 1.5;
+    padding-bottom: 5px;
+}
+.footer-text a {
+    color: #ccc;
+    font-size: 20px;
+    line-height: 1.5;
+}
+.footer-text span {
+    color: #ccc;
+    font-size: 20px;
+    line-height: 1.5;
+}
+.footer-end {
+    padding-top: 40px;
+}
+.footer-end span a {
+    color: #c5a059;
+}
+/* 10. Page breadcumb section css */
+.breadcumb-area {
+    background: #000;
+    background-size: cover;
+}
+.breadcumb-area-header h1 {
+    font-size: 75px;
+    font-weight: 700;
+    line-height: 1;
+    padding-bottom: 25px;
+}
+.breadcumb-area-header a {
+    color: #c5a059;
+}
+/* 11. Single Event page css */
+.single-event-area {
+    background: #000;
+}
+#event-countdown {
+    display: flex;
+}
+#event-countdown div {
+    padding: 20px 0;
+    text-align: center;
+    background: #c5a059;
+    margin-right: 20px;
+    width: 100px;
+    box-shadow: 5px 10px rgba(241, 240, 240, 0.15);
+}
+#event-countdown div span {
+    font-size: 25px;
+    display: block;
+}
+#event-countdown div span:nth-child(2) {
+    font-size: 12px;
+}
+.event-single-page-text-post p {
+    font-size: 14px;
+    color: #ccc;
+    line-height: 1.8;
+}
+.event-single-page-text-price {
+    padding: 30px 0;
+}
+.event-single-page-text-price h4 {
+    font-size: 22px;
+}
+.event-single-page-text-btn .btn {
+    padding: 20px 46px;
+    border-radius: 30px;
+    background: none;
+    border: 2px solid #c5a059;
+    color: #ccc;
+    font-size: 18px;
+}
+.event-single-page-text-btn .btn:hover {
+    border: 2px solid #c5a059;
+    color: #c5a059;
+}
+.single-sidebar-widget > form {
+    height: 45px;
+    position: relative;
+}
+.event-sidebar-widget {
+    padding-bottom: 50px;
+}
+.event-sidebar-widget > form input {
+    border: 2px solid #c5a059;
+    color: #ccc;
+    background: #000;
+    height: 100%;
+    padding: 12px;
+    width: 100%;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+.event-sidebar-widget > form button {
+    background: #c5a059 none repeat scroll 0 0;
+    border: 0;
+    color: #000;
+    font-size: 20px;
+    height: 45px;
+    position: absolute;
+    right: 16px;
+    top: 2px;
+    width: 20%;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.sidebar-header h3 {
+    font-size: 30px;
+    width: 100%;
+    padding-bottom: 10px;
+    line-height: 1.2;
+}
+.event-sidebar-widget li {
+    padding: 8px 0;
+    border-bottom: 1px dashed #c5a059;
+}
+.event-sidebar-widget li a {
+    color: #ccc;
+    font-size: 14px;
+    line-height: 1;
+    font-weight: normal;
+}
+.event-sidebar-widget li a:hover {
+    color: #c5a059;
+}
+.sidebar-post-img img {
+    float: left;
+    padding-right: 15px;
+}
+.sidebar-post-text a h4 {
+    color: #ccc;
+    font-size: 22px;
+    line-height: 1;
+    padding-bottom: 10px;
+}
+.sidebar-post-text a p {
+    color: #ccc;
+    font-size: 13px;
+    line-height: 1;
+}
+.sidebar-post-text a:hover h4 {
+    color: #c5a059;
+    font-size: 22px;
+    line-height: 1;
+}
+.sidebar-post-text a:hover p {
+    color: #c5a059;
+}

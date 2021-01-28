@@ -1,0 +1,125 @@
+<!-- Gallery Area Section Start -->
+            <section id="gallery" class="gallery-area pt-50 pb-100">
+                <div class="container" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="500">
+                    <div class="row">
+                        <div class="col-xl-6 col-lg-8 offset-lg-2 offset-xl-3">
+                            <div class="gallery-area-header text-center">
+                                <h1><?php echo $night_queen_gallery_header_text;?></h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xl-12 col-lg-12">
+                            <div class="gallery-content text-center">
+                                <ul class="nav gallery-nav" id="myTab" role="tablist">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" id="photo-tab" data-toggle="tab" href="#photo" role="tab" aria-controls="photo" aria-selected="true"><?php echo $night_queen_gallery_tab_name;?></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" id="video-tab" data-toggle="tab" href="#video" role="tab" aria-controls="video" aria-selected="false"><?php echo $night_queen_video_gallery_tab_name;?></a>
+                                    </li>
+                                </ul>
+                                <div class="tab-content" id="myTabContent">
+                                    <div class="tab-pane fade show active gallery-tab" id="photo" role="tabpanel" aria-labelledby="photo-tab">
+                                        <div class="container">
+                                            <div class="row grid">						
+                                                <div class="col-xl-8 col-lg-8 grid-item">
+                                                    <div class="image-item">
+                                                        <a class="image-popup gallery-first" href="<?php echo $night_queen_photo_gallery_first_image_popup; ?>"><img class="img-fluid" src="<?php echo $night_queen_photo_gallery_first_image; ?>" alt="" /></a>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-4 col-lg-4 grid-item">
+                                                    <div class="image-item">
+                                                        <a class="image-popup gallery-second" href="<?php echo $night_queen_photo_gallery_second_image_popup; ?>"><img class="img-fluid" src="<?php echo $night_queen_photo_gallery_second_image; ?>" alt="" /></a>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-4 col-lg-4 grid-item">
+                                                    <div class="image-item">
+                                                        <a class="image-popup gallery-third" href="<?php echo $night_queen_photo_gallery_third_image_popup; ?>"><img class="img-fluid" src="<?php echo $night_queen_photo_gallery_third_image; ?>" alt="" /></a>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-4 col-lg-4 grid-item">
+                                                    <div class="image-item">
+                                                        <a class="image-popup gallery-fourth" href="<?php echo $night_queen_photo_gallery_fourth_image_popup; ?>"><img class="img-fluid" src="<?php echo $night_queen_photo_gallery_fourth_image; ?>" alt="" /></a>
+                                                    </div>
+                                                </div>
+                                                
+                                                <div class="col-xl-8 col-lg-8 grid-item">
+                                                    <div class="image-item">
+                                                        <a class="image-popup gallery-sixth" href="<?php echo $night_queen_photo_gallery_sixth_image_popup; ?>	"><img class="img-fluid" src="<?php echo $night_queen_photo_gallery_sixth_image; ?>" alt="" /></a>
+                                                    </div>
+                                                </div><div class="col-xl-4 col-lg-4 grid-item">														
+                                                    <div class="image-item">
+                                                        <a class="image-popup gallery-fifth" href="<?php echo $night_queen_photo_gallery_fifth_image_popup; ?>"><img class="img-fluid" src="<?php echo $night_queen_photo_gallery_fifth_image; ?>" alt="" /></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade gallery-tab" id="video" role="tabpanel" aria-labelledby="video-tab">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-xl-4 col-lg-4">
+                                                    <div class="image-item">
+                                                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/blog/one.jpg" alt="" />
+                                                        <a class="video-button btn" href="https://www.youtube.com/watch?v=t4H_Zoh7G5A"><i class="fa fa-play" aria-hidden="true"></i></a>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-4 col-lg-4">
+                                                    <div class="image-item">
+                                                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/blog/two.jpg" alt="" />
+                                                        <a class="video-button btn" href="https://www.youtube.com/watch?v=t4H_Zoh7G5A"><i class="fa fa-play" aria-hidden="true"></i></a>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-4 col-lg-4">
+                                                    <div class="image-item">
+                                                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/blog/one.jpg" alt="" />
+                                                        <a class="video-button btn" href="https://www.youtube.com/watch?v=t4H_Zoh7G5A"><i class="fa fa-play" aria-hidden="true"></i></a>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-4 col-lg-4">
+                                                    <div class="image-item">
+                                                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/blog/two.jpg" alt="" />
+                                                        <a class="video-button btn" href="https://www.youtube.com/watch?v=t4H_Zoh7G5A"><i class="fa fa-play" aria-hidden="true"></i></a>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-4 col-lg-4">
+                                                    <div class="image-item">
+                                                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/blog/one.jpg" alt="" />
+                                                        <a class="video-button btn" href="https://www.youtube.com/watch?v=t4H_Zoh7G5A"><i class="fa fa-play" aria-hidden="true"></i></a>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-4 col-lg-4">
+                                                    <div class="image-item">
+                                                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/blog/two.jpg" alt="" />
+                                                        <a class="video-button btn" href="https://www.youtube.com/watch?v=t4H_Zoh7G5A"><i class="fa fa-play" aria-hidden="true"></i></a>
+                                                    </div>
+                                                </div>
+												<div class="col-xl-4 col-lg-4">
+                                                    <div class="image-item">
+                                                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/blog/one.jpg" alt="" />
+                                                        <a class="video-button btn" href="https://www.youtube.com/watch?v=t4H_Zoh7G5A"><i class="fa fa-play" aria-hidden="true"></i></a>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-4 col-lg-4">
+                                                    <div class="image-item">
+                                                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/blog/two.jpg" alt="" />
+                                                        <a class="video-button btn" href="https://www.youtube.com/watch?v=t4H_Zoh7G5A"><i class="fa fa-play" aria-hidden="true"></i></a>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-4 col-lg-4">
+                                                    <div class="image-item">
+                                                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/blog/one.jpg" alt="" />
+                                                        <a class="video-button btn" href="https://www.youtube.com/watch?v=t4H_Zoh7G5A"><i class="fa fa-play" aria-hidden="true"></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Gallery Area Section End -->

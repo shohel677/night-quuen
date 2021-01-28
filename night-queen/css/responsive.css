@@ -1,0 +1,353 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+    .pogoSlider {
+        height: 660px;
+    }
+}
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+	.text-logo {
+    padding-top: 20px;
+	}
+	.text-logo a {
+    font-size: 19px;
+	}
+    .pogoSlider {
+        height: 660px;
+    }
+    .slider-text {
+        padding-top: 275px;
+    }
+    .service-area-header p {
+        font-size: 14px;
+    }
+    .package-offer li {
+        font-size: 14px;
+    }
+    .event-area-header p {
+        font-size: 14px;
+    }
+    .event-heading h1 {
+        font-size: 34px;
+    }
+    .reservation-area-header p {
+        font-size: 14px;
+    }
+    .reservation-form .btn {
+        padding: 22px 50px;
+        font-size: 20px;
+    }
+    .footer-end span {
+        font-size: 25px;
+    }
+}
+
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .mobile-logo-area {
+        background: #000;
+        padding-top: 15px;
+    }
+	.mobile-logo a {
+    font-size: 36px;
+	}
+    .slider-area {
+        padding-top: 140px;
+    }
+    .slider-text {
+        padding-top: 120px;
+    }
+    .slider-text h1 {
+        font-size: 55px;
+    }
+    .pogoSlider {
+        height: 560px;
+    }
+    .pogo-slider-text h1 {
+        padding-top: 160px;
+    }
+    .parallax-window {
+        min-height: 500px;
+        background: transparent;
+    }
+    .slider-text h5 {
+        font-size: 38px;
+
+        letter-spacing: 1px;
+    }
+    .video-slider-area {
+        height: 500px;
+    }
+    .about-us-area {
+        padding-bottom: 50px;
+    }
+    .about-us-text h1 {
+        font-size: 105px;
+    }
+    .about-us-text {
+        margin-bottom: 50px;
+    }
+    .gallery-area {
+        padding-bottom: 50px;
+    }
+    .gallery-area-header h1 {
+        font-size: 65px;
+    }
+    .gallery-nav li a {
+        font-size: 22px;
+    }
+    .service-area {
+        padding-bottom: 50px;
+    }
+    .service-area-header h1 {
+        font-size: 65px;
+    }
+    .service-area-header p {
+        font-size: 14px;
+    }
+    .package-offer h3 {
+        font-size: 25px;
+    }
+    .package-offer h5 {
+        font-size: 18px;
+    }
+
+    .service-nav li a {
+        margin: 4px 2px;
+    }
+    .package-offer li {
+        font-size: 14px;
+    }
+    .event-area {
+        padding-bottom: 30px;
+    }
+    .event-area-header h1 {
+        font-size: 65px;
+    }
+    .event-area-header p {
+        font-size: 14px;
+    }
+    .event-single {
+        margin-bottom: 35px;
+    }
+    .event-heading h1 {
+        font-size: 34px;
+    }
+    .reservation-area {
+        padding-bottom: 50px;
+    }
+    .reservation-area-header h1 {
+        font-size: 65px;
+    }
+    .reservation-area-header p {
+        font-size: 14px;
+    }
+    .reservation-form .btn {
+        padding: 18px 49px;
+        font-size: 18px;
+    }
+    .footer-text {
+        padding-bottom: 40px;
+    }
+    .footer-text a {
+        font-size: 18px;
+    }
+    .footer-text span {
+        font-size: 18px;
+    }
+    .footer-end span {
+        font-size: 20px;
+    }
+    .footer-end li a {
+        font-size: 39px;
+    }
+    .breadcumb-area-header h1 {
+        font-size: 65px;
+
+        padding-top: 235px;
+    }
+}
+
+/* small mobile :320px. */
+@media (max-width: 767px) {
+    .mobile-logo-area {
+        background: #000;
+        padding-top: 33px;
+    }
+    .mobile-menu-area {
+        top: 10px;
+    }
+	.mobile-logo a {
+    font-size: 28px;
+	}
+    .mobile-logo {
+        padding: 0px 60px;
+    }
+    .mobile-logo h3 {
+        font-size: 19px;
+    }
+    .video-slider-area {
+        height: 450px;
+    }
+    .slider-area {
+        padding-top: 135px;
+    }
+    .slider-text {
+        padding-top: 135px;
+    }
+    .parallax-window {
+        min-height: 450px;
+        background: transparent;
+    }
+    .slider-text h1 {
+        font-size: 30px;
+    }
+    .slider-text h5 {
+        font-size: 38px;
+
+        letter-spacing: 1px;
+    }
+    .pogoSlider {
+        height: 300px;
+    }
+    .pogoSlider-slide-element {
+        padding-left: 5px;
+    }
+    .pogo-slider-text h1 {
+        padding-top: 20px;
+        font-size: 20px;
+    }
+    .pogo-slider-text .btn {
+        font-size: 12px;
+
+        margin-left: 51px;
+        padding: 13px 25px;
+        margin-bottom: 20px;
+    }
+
+    .pogo-slider-text p {
+        font-size: 13px;
+        line-height: 2;
+
+        margin-bottom: 10px;
+    }
+
+    .about-us-area {
+        padding-bottom: 50px;
+    }
+    .about-us-text h1 {
+        font-size: 47px;
+    }
+    .about-us-text-normal p {
+        font-size: 14px;
+        color: #ccc;
+    }
+    .about-us-text {
+        margin-bottom: 50px;
+    }
+    .gallery-area {
+        padding-bottom: 50px;
+    }
+    .gallery-area-header h1 {
+        font-size: 65px;
+    }
+    .gallery-nav li a {
+        font-size: 22px;
+    }
+    .service-area {
+        padding-bottom: 50px;
+    }
+    .service-area-header h1 {
+        font-size: 65px;
+    }
+    .service-area-header p {
+        font-size: 14px;
+    }
+    .package-offer h3 {
+        font-size: 25px;
+    }
+    .package-offer h5 {
+        font-size: 18px;
+    }
+
+    .service-nav li a {
+        margin: 4px 2px;
+        font-size: 24px;
+    }
+    .package-offer li {
+        font-size: 14px;
+    }
+    .event-area {
+        padding-bottom: 30px;
+    }
+    .event-area-header h1 {
+        font-size: 65px;
+    }
+    .event-area-header p {
+        font-size: 14px;
+    }
+    .event-single {
+        margin-bottom: 35px;
+    }
+    .event-heading h1 {
+        font-size: 31px;
+    }
+    .reservation-area {
+        padding-bottom: 50px;
+    }
+    .reservation-area-header h1 {
+        font-size: 65px;
+    }
+    .reservation-area-header p {
+        font-size: 14px;
+    }
+    .reservation-form .btn {
+        padding: 18px 49px;
+        font-size: 18px;
+    }
+    .footer-text {
+        padding-bottom: 40px;
+    }
+    .footer-text a {
+        font-size: 18px;
+    }
+    .footer-text span {
+        font-size: 18px;
+    }
+    .footer-end span {
+        font-size: 20px;
+    }
+    .footer-end li a {
+        font-size: 39px;
+    }
+    .breadcumb-area-header h1 {
+        font-size: 65px;
+        padding-top: 190px;
+    }
+    #event-countdown div {
+        padding: 10px 0;
+
+        margin-right: 20px;
+    }
+    #event-countdown div span {
+        font-size: 16px;
+        display: block;
+    }
+    #event-countdown div span:nth-child(2) {
+        font-size: 10px;
+    }
+    .event-single {
+        padding: 13px;
+    }
+    .event-single-border {
+        padding: 16px;
+    }
+}
+
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .container {
+        width: 450px;
+    }
+}
